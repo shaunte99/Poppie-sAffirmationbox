@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Poppie’s AffirmaBox</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <!-- Background -->
+  <div class="scene">
+    <canvas id="bokeh"></canvas>
+    <div class="petal-layer" aria-hidden="true"></div>
+  </div>
+
+  <!-- Title badge -->
+  <div class="brand">
+    <span class="heart">❤</span>
+    <span class="name">Poppie’s AffirmaBox</span>
+  </div>
+
+  <!-- Letter wrapper -->
+  <main class="wrap">
+    <section class="letter">
+      <header class="letter-head">
+        <div class="date">
+          <!-- Today’s date -->
+          Friday, August 29, 2025
+        </div>
+        <div class="salute">Dear Poppie,</div>
+      </header>
+
+      <article class="letter-body">
+        <div class="ink">
+Hey Ms sunshine,
+
+As you walk this pageant journey, remember that the crown you seek is already within you. It isn’t just made of jewels and gold, it’s made of the light in your smile, the fire in your determination, and the love you carry in your heart.
+
+Every step you take on that stage is not just about beauty, but about the story you carry, a story of resilience, kindness, and a spirit that refuses to be ordinary. The world may see the gowns, the makeup, the cameras... but I see you: the girl who laughs with the sun in her voice, who dreams so loudly that even the universe listens, who has a heart far too bright to be dimmed.
+
+No competition, no stage, no panel of judges could ever measure your worth. Win or lose, your soul already shines brighter than any spotlight they could place above you. This journey is not about proving you are enough.. it’s about showing the world what God already designed you to be: radiant, rare, and unforgettable.
+
+So when your feet touch the stage, breathe. Let every step be a prayer of gratitude, let every glance be a reminder that you are more than prepared, and let your spirit speak louder than words.
+
+You are not just a finalist. You are a phenomenon.
+
+With every heartbeat, I’m cheering for you.
+
+
+        </div>
+      </article>
+
+      <footer class="letter-foot">
+        <div class="signature">With love, <span class="sig">K</span></div>
+      </footer>
+
+      <figure class="companion">
+        <img src="images/yumi.png" alt="Your tiny companion" />
+      </figure>
+    </section>
+  </main>
+
+  <div class="controls">
+    <button id="musicToggle" class="btn">Sound</button>
+  </div>
+
+  <audio id="bgm" preload="auto" loop src="music/Anchor (Instrumental).mp3"></audio>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
